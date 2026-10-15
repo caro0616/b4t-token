@@ -1,0 +1,20 @@
+# --- Secretos: NUNCA se suben ---
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*semilla*
+*seed*
+*mnemonic*
+*private*
+api_key*
+keystore/
+
+# --- Archivos de Remix y del sistema ---
+.deps/
+artifacts/
+.states/
+.DS_Store
+Thumbs.db
+~$*
