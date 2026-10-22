@@ -6,12 +6,12 @@ Token ERC-20 de uso educativo desplegado en Polygon PoS. Proyecto final del curs
 
 ## Equipo
 
-| Integrante | Rol |
-| --- | --- |
-| David Alberto Cuadros Mariño | _por definir_ |
-| Maximiliano Bustamante Garcia | _por definir_ |
-| Valeria Francis Hornung Urrego | _por definir_ |
-| Leidy Carolina Obando Figueroa | _por definir_ |
+| Integrante | Rol | Responsabilidades |
+| --- | --- | --- |
+| Valeria Francis Hornung Urrego | Contrato | Escribe el contrato en Solidity con OpenZeppelin, lo compila en Remix y lo verifica en Polygonscan (Amoy y mainnet). |
+| Leidy Carolina Obando Figueroa | Pruebas en Amoy | Prepara las cuentas de prueba, ejecuta la matriz de pruebas A01–A18 y registra hashes, saldos y gas como evidencia. |
+| Maximiliano Bustamante Garcia | Despliegue en mainnet | Arma la lista de verificación, calcula el presupuesto de gas y maneja la billetera exclusiva del proyecto para el despliegue y la distribución. |
+| David Alberto Cuadros Mariño | Whitepaper e informe | Redacta el whitepaper, hace la conciliación de saldos y costos y consolida el informe final y la presentación. |
 
 Supervisor académico: Sergio Steven Ramirez Rico.
 
