@@ -33,7 +33,7 @@ Supervisor académico: Sergio Steven Ramirez Rico.
 | Polygon Amoy (pruebas) | 80002 | _pendiente_ | _pendiente_ | `v1.0-amoy` |
 | Polygon PoS (mainnet) | 137 | _pendiente_ | _pendiente_ | `v1.0-mainnet` |
 
-Compilador: _versión pendiente_ · Optimización: _pendiente_
+Compilador: Solidity 0.8.24 · Optimización: activada, 200 runs · EVM: cancun · OpenZeppelin Contracts 5.6.1
 
 ## Estructura del repositorio
 
