@@ -1,0 +1,23 @@
+{
+  "_nota": "Solo direcciones públicas. Nunca poner aquí claves privadas ni frases semilla.",
+  "integrantes": [
+    { "nombre": "David Alberto Cuadros Mariño", "direccion": "0xPENDIENTE" },
+    { "nombre": "Maximiliano Bustamante Garcia", "direccion": "0xPENDIENTE" },
+    { "nombre": "Valeria Francis Hornung Urrego", "direccion": "0xPENDIENTE" },
+    { "nombre": "Leidy Carolina Obando Figueroa", "direccion": "0xPENDIENTE" }
+  ],
+  "redes": {
+    "amoy": {
+      "contrato": "PENDIENTE",
+      "billetera_despliegue": "0xPENDIENTE",
+      "bloque_despliegue": 0,
+      "presupuesto_pol": null
+    },
+    "mainnet": {
+      "contrato": "PENDIENTE",
+      "billetera_despliegue": "0xPENDIENTE",
+      "bloque_despliegue": 0,
+      "presupuesto_pol": null
+    }
+  }
+}
