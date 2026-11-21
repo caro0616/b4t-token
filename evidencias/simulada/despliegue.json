@@ -1,0 +1,16 @@
+{
+  "red": "Red local simulada (Hardhat, fork cancun)",
+  "chainId": "31337",
+  "contrato": "0xB81De5f5D082e35E067587901E0b7803aA91C9D3",
+  "hashDespliegue": "0x5b8280ff7ed8d44cf16b89df32472f94f3fc1ddfbf6da1c69fa00e98d23b8100",
+  "bloque": 6,
+  "desplegadoPor": "0x3716859d6F2750bC9554e4590C626B8A095A5E69",
+  "fecha": "2026-11-20 10:22:08",
+  "compilador": "v0.8.24+commit.e11b9ed9",
+  "optimizacion": {
+    "enabled": true,
+    "runs": 200
+  },
+  "evm": "cancun",
+  "enlace": ""
+}

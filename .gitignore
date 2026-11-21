@@ -22,3 +22,7 @@ Thumbs.db
 # --- Python ---
 __pycache__/
 *.pyc
+
+# --- Dependencias de Node ---
+node_modules/
+cache/

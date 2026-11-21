@@ -31,9 +31,14 @@ Supervisor académico: Sergio Steven Ramirez Rico.
 | Red | Chain ID | Dirección del contrato | Explorador | Commit / tag |
 | --- | --- | --- | --- | --- |
 | Polygon Amoy (pruebas) | 80002 | _pendiente_ | _pendiente_ | `v1.0-amoy` |
+| Red local simulada (Hardhat) | 31337 | 0xB81De5f5D082e35E067587901E0b7803aA91C9D3 | No aplica (ver `evidencias/simulada/`) | — |
 | Polygon PoS (mainnet) | 137 | _pendiente_ | _pendiente_ | `v1.0-mainnet` |
 
 Compilador: Solidity 0.8.24 · Optimización: activada, 200 runs · EVM: cancun · OpenZeppelin Contracts 5.6.1
+
+## Estado de las pruebas
+
+Por los requisitos actuales de los faucets de Amoy (exigen saldo en Ethereum mainnet), la matriz de pruebas A01–A18 se ejecutó en una red local con las mismas reglas de la EVM (Hardhat, `cancun`) y la misma configuración del compilador. Resultado: 33 de 33 filas aprobadas. Evidencia en `evidencias/simulada/` y programa para repetirla en `pruebas/` (`npm run pruebas:simulada`); el mismo programa ejecuta la matriz en Amoy (`npm run pruebas`) cuando haya POL de prueba.
 
 ## Estructura del repositorio
 
@@ -41,7 +46,9 @@ Compilador: Solidity 0.8.24 · Optimización: activada, 200 runs · EVM: cancun 
 contracts/            Código fuente del contrato (B4T.sol)
 docs/propuesta/       Propuesta aprobada (PDF)
 docs/whitepaper/      Whitepaper académico (PDF)
-evidencias/amoy/      Matriz de pruebas A01–A18 y capturas
+evidencias/amoy/      Matriz de pruebas A01–A18 en Amoy y capturas
+evidencias/simulada/  Matriz A01–A18 ejecutada en red simulada (33/33 aprobadas)
+pruebas/              Programa que ejecuta la matriz (Amoy o simulada)
 evidencias/mainnet/   Matriz M01–M07, conciliación de saldos y capturas
 revision/             Lista de verificación de la revisión por pares y del despliegue
 ```

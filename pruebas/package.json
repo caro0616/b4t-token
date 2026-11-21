@@ -1,0 +1,20 @@
+{
+  "name": "b4t-pruebas-amoy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pruebas automáticas del token B4T en Polygon Amoy (casos A01 a A18)",
+  "scripts": {
+    "cuentas": "node cuentas.js",
+    "pruebas": "node ejecutar.js",
+    "verificar": "node verificar.js",
+    "pruebas:simulada": "node simulada.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.6.1",
+    "ethers": "6.13.4",
+    "solc": "0.8.24"
+  },
+  "devDependencies": {
+    "hardhat": "2.22.17"
+  }
+}
